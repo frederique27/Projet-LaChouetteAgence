@@ -18,6 +18,11 @@ a:hover {
     cursor: pointer;
 }
 
+nav li a:hover {
+    border-bottom: 1px solid black;
+
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
