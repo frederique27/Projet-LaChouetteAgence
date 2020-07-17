@@ -23,6 +23,16 @@ nav li a:hover {
 
 }
 
+/* MODIFICATIONS */
+blockquote {
+    color: rgb(87 87 87);
+}
+blockquote footer {
+    color: rgb(82 82 82);
+}
+/* MODIFICATIONS FIN*/
+
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -655,7 +665,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -681,7 +691,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 13px;
 }
 
 .tight-width-whitespace {
@@ -770,39 +780,48 @@ h4 {
     background-color: #FFFFFF;
 }
 
+
+/* MODIFICATIONS COULEURS*/
+i {
+    color: white!important;
+}
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: rgb(223, 54, 2);
 }
-
 .tc-white {
-    color: #F3976C!important;
+    color: rgb(223, 54, 2);
 }
-
+h1 {
+    color: white!important;
+    font-weight: 600;
+    text-shadow: 0.3px 0.3px 0.2px black;
+}
+.color {
+    color: rgba(255, 255, 255, 2)!important;
+    text-shadow: 0.3px 0.3px 0.2px black;
+}
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: rgb(223, 54, 2);
+    color: rgb(255, 255, 255)!important;
 }
-
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: rgba(223, 54, 2, 0.8);
     color: #FFFFFF!important;
 }
-
 .ltc-white {
     color: #FFFFFF!important;
 }
-
 .ltc-white:hover {
     color: #cccccc!important;
 }
-
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: rgb(223, 54, 2)!important;
 }
-
 .ltc-atomic-tangerine:hover {
     color: #c27956!important;
 }
+/* MODIFICATIONS FIN*/
+
 
 .icon-dark-slate-blue {
     color: #364577!important;
