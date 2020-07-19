@@ -704,15 +704,45 @@ p {
     margin-top: 22px;
     color: #FFFFFF!important;
     text-transform: uppercase;
-    padding: 12px 28px 12px 28px;
+    padding: 12px 28px;
     font-size: 16px;
     font-weight: 700;
+}
+/* MODIFICATIONS */
+#address {
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-left: 10px;
+}
+#address a {
+    padding: 17px 0 17px 10px;
+}
+#address p {
+    padding-left: 10px;
+}
+
+address {
+    padding-left: 10px;
+    color: rgb(87 87 87);
+    margin-top: 10px;
+
 }
 
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: center;
 }
+.social a {
+    width: 55px;
+    height: 55px;
+}
+
+.fa {
+    margin: auto;
+}
+/* MODIFICATIONS */
 
 h2 {
     font-size: 22px;
